@@ -48,7 +48,7 @@ function Home() {
   return (
     <div className="site-shell min-h-[100dvh]">
       <header>
-        <div className="topbar">Atendimento por marcação · Vila Nova de Gaia · Portugal</div>
+        <div className="topbar">Atendimento por marcação · Viseu · Portugal</div>
         <nav className={`nav-shell ${menuOpen ? 'menu-open' : ''}`} aria-label="Navegação principal">
           <div className="nav-inner">
             <AppLink href="#top" className="wordmark" onClick={closeMenu}>
@@ -79,7 +79,7 @@ function Home() {
             <div className="hero-logo" aria-label="Logótipo Judah Studio Barbershop">
               <img src="/judah-logo.png" alt="Judah Studio Barbershop" />
             </div>
-            <div className="hero-kicker eyebrow"><span>Est. 2019</span><span className="hairline" style={{ width: 46 }} /><span>Porto · PT</span></div>
+            <div className="hero-kicker eyebrow"><span>Est. 2019</span><span className="hairline" style={{ width: 46 }} /><span>Viseu · PT</span></div>
             <h1 className="hero-title" id="hero-title">Mais que<br /><em>um corte.</em><br />Uma experiência.</h1>
             <div className="hero-footer">
               <p className="hero-copy">Um espaço para abrandar o ritmo, afinar a presença e sair exatamente como quer ser visto.</p>
@@ -203,9 +203,9 @@ function Home() {
             <div className="visit-card">
               <Clock3 size={20} color="var(--gold)" strokeWidth={1} />
               <h3>Uma morada<br />com carácter.</h3>
-              <p>Rua do Agueiro, 295<br />4400-003 Vila Nova de Gaia<br />Portugal</p>
+              <p>Viseu<br />Portugal</p>
               <div className="visit-links">
-                <AppLink href="https://maps.google.com/?q=Rua+do+Agueiro+295+Vila+Nova+de+Gaia" target="_blank" rel="noreferrer"><MapPin size={13} /> Abrir mapas</AppLink>
+                <AppLink href="https://maps.google.com/?q=Viseu+Portugal" target="_blank" rel="noreferrer"><MapPin size={13} /> Abrir mapas</AppLink>
                 <AppLink href={WHATSAPP}><Phone size={13} /> +351 965 832 312</AppLink>
               </div>
             </div>
