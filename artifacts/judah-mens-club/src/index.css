@@ -137,6 +137,8 @@
 .hero { min-height: min(850px, 100svh); position:relative; color:var(--paper); display:flex; align-items:flex-end; background:linear-gradient(90deg,rgba(10,10,8,.88) 0%,rgba(10,10,8,.5) 53%,rgba(10,10,8,.35)), url('https://images.pexels.com/photos/1453005/pexels-photo-1453005.jpeg?auto=compress&cs=tinysrgb&w=2000') center 35%/cover; }
 .hero::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(0deg, rgba(10,10,8,.65), transparent 45%); }
 .hero-content { position:relative; z-index:1; width:min(1180px,calc(100% - 48px)); margin:0 auto; padding:150px 0 86px; }
+.hero-logo { width:100%; display:flex; justify-content:center; margin:0 0 34px; animation:rise .8s .02s ease both; }
+.hero-logo img { width:132px; height:146px; object-fit:contain; object-position:center; }
 .hero-kicker { display:flex; gap:18px; align-items:center; margin-bottom:27px; animation:rise .8s ease both; }
 .hero-kicker span:last-child { color:var(--gold-light); }
 .hero-title { font-family:var(--app-font-serif); font-size:clamp(72px, 10.2vw, 152px); line-height:.79; font-weight:500; letter-spacing:-.045em; max-width:790px; margin:0 0 34px; animation:rise .8s .1s ease both; }
@@ -261,6 +263,8 @@
   .nav-shell.menu-open .nav-links a:last-child { margin-top:10px; text-align:center; border:0; }
   .hero { min-height:720px; background-position:62% center; }
   .hero-content { padding-bottom:54px; }
+  .hero-logo { margin-bottom:22px; }
+  .hero-logo img { width:102px; height:112px; }
   .hero-title { font-size:clamp(63px,19vw,100px); max-width:340px; }
   .hero-footer { align-items:start; }
   .hero-index { display:none; }

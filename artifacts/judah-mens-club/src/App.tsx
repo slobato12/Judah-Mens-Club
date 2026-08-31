@@ -76,6 +76,9 @@ function Home() {
       <main id="top">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero-content">
+            <div className="hero-logo" aria-label="Logótipo Judah Studio Barbershop">
+              <img src="/judah-logo.png" alt="Judah Studio Barbershop" />
+            </div>
             <div className="hero-kicker eyebrow"><span>Est. 2019</span><span className="hairline" style={{ width: 46 }} /><span>Porto · PT</span></div>
             <h1 className="hero-title" id="hero-title">Mais que<br /><em>um corte.</em><br />Uma experiência.</h1>
             <div className="hero-footer">
