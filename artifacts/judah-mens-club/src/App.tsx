@@ -52,7 +52,11 @@ function Home() {
         <nav className={`nav-shell ${menuOpen ? 'menu-open' : ''}`} aria-label="Navegação principal">
           <div className="nav-inner">
             <AppLink href="#top" className="wordmark" onClick={closeMenu}>
-              <span className="wordmark-mark" aria-label="Área reservada para o logótipo original">JUDAH</span>
+              <img
+                className="wordmark-logo"
+                src="/judah-logo.png"
+                alt="Judah Studio Barbershop"
+              />
               <span className="wordmark-name">Men&apos;s Club<span className="wordmark-sub">Barbearia privada</span></span>
             </AppLink>
             <div className="nav-links">
