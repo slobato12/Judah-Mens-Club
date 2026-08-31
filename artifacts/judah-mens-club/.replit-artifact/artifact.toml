@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Judah Men’s Club"
+description = "Website premium e responsivo para a Judah Men’s Club, com identidade visual baseada na logo original, apresentação de serviços e preços, galeria, horários, localização e agendamento direto pelo WhatsApp."
+version = "1.0.0"
+id = "artifacts/judah-mens-club"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21390
+
+[services.development]
+run = "pnpm --filter @workspace/judah-mens-club run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/judah-mens-club", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/judah-mens-club/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21390"
+BASE_PATH = "/"
