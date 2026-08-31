@@ -204,9 +204,9 @@ function Home() {
             <div className="visit-card">
               <Clock3 size={20} color="var(--gold)" strokeWidth={1} />
               <h3>Uma morada<br />com carácter.</h3>
-              <p>Viseu<br />Portugal</p>
+              <p>R. Direita<br />3500-116 Viseu<br />Portugal</p>
               <div className="visit-links">
-                <AppLink href="https://maps.google.com/?q=Viseu+Portugal" target="_blank" rel="noreferrer"><MapPin size={13} /> Abrir mapas</AppLink>
+                <AppLink href="https://maps.app.goo.gl/3cPmh2tm4vzWYbSv7?g_st=ic" target="_blank" rel="noreferrer"><MapPin size={13} /> Abrir mapas</AppLink>
                 <AppLink href={WHATSAPP}><Phone size={13} /> +351 965 832 312</AppLink>
               </div>
             </div>
