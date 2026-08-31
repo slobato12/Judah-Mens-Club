@@ -158,10 +158,11 @@ function Home() {
             <p>Uma pausa com boa luz, boas conversas e nenhum detalhe deixado ao acaso.</p>
           </div>
           <div className="gallery-grid">
-            <figure className="gallery-image"><img loading="lazy" src="https://images.pexels.com/photos/1570806/pexels-photo-1570806.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Barbeiro a trabalhar num corte de precisão" /></figure>
-            <figure className="gallery-image"><img loading="lazy" src="https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Cadeira e espelho de uma barbearia" /></figure>
-            <figure className="gallery-image"><img loading="lazy" src="https://images.pexels.com/photos/3998426/pexels-photo-3998426.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Detalhe de acabamento de barba" /></figure>
-            <figure className="gallery-image"><img loading="lazy" src="https://images.pexels.com/photos/15777323/pexels-photo-15777323.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Ferramentas profissionais de barbearia" /></figure>
+            <figure className="gallery-image"><img loading="lazy" src="/judah-4729.jpeg" alt="Resultado de um corte Judah em detalhe" /></figure>
+            <figure className="gallery-image"><img loading="lazy" src="/judah-4728.jpeg" alt="Exterior da Judah com a identidade do leão" /></figure>
+            <figure className="gallery-image"><img loading="lazy" src="/judah-4727.jpeg" alt="Corte júnior realizado na barbearia" /></figure>
+            <figure className="gallery-image"><img loading="lazy" src="/judah-4726.jpeg" alt="Corte infantil finalizado pela Judah" /></figure>
+            <figure className="gallery-image"><img loading="lazy" src="/judah-4725.jpeg" alt="Cliente Judah no centro histórico de Viseu" /></figure>
           </div>
           <div className="gallery-caption"><span>Judah Men&apos;s Club</span><span>O detalhe fica.</span></div>
         </section>

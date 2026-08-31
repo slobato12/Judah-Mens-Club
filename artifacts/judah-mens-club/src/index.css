@@ -135,7 +135,7 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
 .nav-book:hover { background:var(--paper); transform:translateY(-2px); }
 .menu-button { display:none; border:0; color:var(--paper); background:transparent; padding:10px; cursor:pointer; }
 
-.hero { min-height: min(850px, 100svh); position:relative; color:var(--paper); display:flex; align-items:flex-end; background:linear-gradient(90deg,rgba(10,10,8,.88) 0%,rgba(10,10,8,.5) 53%,rgba(10,10,8,.35)), url('https://images.pexels.com/photos/1453005/pexels-photo-1453005.jpeg?auto=compress&cs=tinysrgb&w=2000') center 35%/cover; }
+.hero { min-height: min(850px, 100svh); position:relative; color:var(--paper); display:flex; align-items:flex-end; background:linear-gradient(90deg,rgba(10,10,8,.72) 0%,rgba(10,10,8,.34) 53%,rgba(10,10,8,.28)), url('/judah-4731.jpeg') center 39%/cover; }
 .hero::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(0deg, rgba(10,10,8,.65), transparent 45%); }
 .hero-content { position:relative; z-index:1; width:min(1180px,calc(100% - 48px)); margin:0 auto; padding:150px 0 86px; }
 .hero-logo { width:100%; display:flex; justify-content:center; margin:0 0 34px; animation:rise .8s .02s ease both; }
@@ -160,7 +160,7 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
 .signature { font-family:var(--app-font-serif); font-size:30px; font-style:italic; margin-top:42px; color:#8e7445; }
 
 .feature-band { display:grid; grid-template-columns:1.13fr .87fr; min-height:600px; }
-.feature-image { min-height:600px; background:url('https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1400') center/cover; position:relative; }
+.feature-image { min-height:600px; background:url('/judah-4730.jpeg') center/cover; position:relative; }
 .feature-image::after { content:'JUDAH / 01'; position:absolute; bottom:28px; left:30px; color:var(--gold-light); font-family:var(--app-font-mono); font-size:10px; letter-spacing:.18em; }
 .feature-panel { background:var(--ink-soft); color:var(--paper); display:flex; flex-direction:column; justify-content:center; padding:78px 12%; }
 .feature-panel h2 { font-family:var(--app-font-serif); font-weight:500; font-size:clamp(46px,5vw,74px); line-height:.88; letter-spacing:-.04em; margin:28px 0; }
@@ -196,12 +196,13 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
 .gallery { padding:138px 0 145px; }
 .gallery-intro { display:flex; justify-content:space-between; align-items:start; margin-bottom:59px; }
 .gallery-intro p { font-family:var(--app-font-serif); font-style:italic; font-size:25px; max-width:310px; line-height:1.15; color:#675940; }
-.gallery-grid { display:grid; grid-template-columns:1fr .72fr 1fr; grid-template-rows:220px 300px; gap:15px; }
+.gallery-grid { display:grid; grid-template-columns:1fr .72fr 1fr; grid-template-rows:220px 300px 220px; gap:15px; }
 .gallery-image { background-size:cover; background-position:center; filter:saturate(.72); transition:filter .5s, transform .5s; overflow:hidden; margin:0; }
 .gallery-image img { width:100%; height:100%; display:block; object-fit:cover; }
 .gallery-image:hover { filter:saturate(1); transform:scale(.985); }
 .gallery-image:nth-child(1) { grid-row:span 2; }
 .gallery-image:nth-child(3) { grid-row:span 2; }
+.gallery-image:nth-child(5) { grid-column:1 / -1; }
 .gallery-caption { display:flex; justify-content:space-between; margin-top:16px; color:#766d60; font-family:var(--app-font-mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase; }
 
 .booking { background:var(--gold); padding:105px 0 110px; color:var(--ink); }
@@ -288,9 +289,10 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
   .pricing { padding:93px 0 102px; }
   .gallery-intro { display:block; }
   .gallery-intro p { margin-top:25px; }
-  .gallery-grid { grid-template-columns:1fr 1fr; grid-template-rows:190px 190px; gap:9px; }
+  .gallery-grid { grid-template-columns:1fr 1fr; grid-template-rows:190px 190px 190px; gap:9px; }
   .gallery-image:nth-child(1) { grid-row:span 2; }
   .gallery-image:nth-child(3) { grid-row:span 1; }
+  .gallery-image:nth-child(5) { grid-column:1 / -1; }
   .gallery-caption { font-size:8px; }
   .booking { padding:84px 0 88px; }
   .booking h2 { font-size:72px; }
