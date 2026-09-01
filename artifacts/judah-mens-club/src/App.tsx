@@ -161,7 +161,7 @@ function Home() {
             <figure className="gallery-image"><img loading="lazy" src="/judah-4728.jpeg" alt="Exterior da Judah com a identidade do leão" /></figure>
             <figure className="gallery-image"><img loading="lazy" src="/judah-4727.jpeg" alt="Corte júnior realizado na barbearia" /></figure>
             <figure className="gallery-image"><img loading="lazy" src="/judah-4726.jpeg" alt="Corte infantil finalizado pela Judah" /></figure>
-            <figure className="gallery-image"><img loading="lazy" src="/judah-4725.jpeg" alt="Cliente Judah no centro histórico de Viseu" /></figure>
+            <figure className="gallery-image gallery-image-portrait"><img loading="lazy" src="/judah-4725.jpeg" alt="Cliente Judah no centro histórico de Viseu" /></figure>
           </div>
           <div className="gallery-caption"><span>Judah Men&apos;s Club</span><span>O detalhe fica.</span></div>
         </section>
