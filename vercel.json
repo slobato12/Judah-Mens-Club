@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm --filter @workspace/judah-mens-club run build",
+  "outputDirectory": "artifacts/judah-mens-club/dist/public"
+}
