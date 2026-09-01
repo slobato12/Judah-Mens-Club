@@ -203,6 +203,7 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
 .gallery-image:nth-child(1) { grid-row:span 2; }
 .gallery-image:nth-child(3) { grid-row:span 2; }
 .gallery-image:nth-child(5) { grid-column:1 / -1; }
+.gallery-image-portrait { background:var(--paper-light); }
 .gallery-caption { display:flex; justify-content:space-between; margin-top:16px; color:#766d60; font-family:var(--app-font-mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase; }
 
 .booking { background:var(--gold); padding:105px 0 110px; color:var(--ink); }
@@ -246,6 +247,11 @@ header { position:fixed; z-index:50; top:0; left:0; right:0; }
 
 @keyframes rise { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
 @keyframes marquee { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+@media (min-width: 768px) {
+  .gallery-grid { grid-template-rows:220px 300px minmax(430px, 1fr); }
+  .gallery-image-portrait { display:flex; justify-content:center; }
+  .gallery-image-portrait img { width:auto; max-width:100%; object-fit:contain; }
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration:.01ms!important; animation-iteration-count:1!important; scroll-behavior:auto!important; transition-duration:.01ms!important; }
 }
